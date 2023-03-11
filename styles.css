@@ -18,6 +18,8 @@ h2 {
 
 img {
   width: 800px;
+  height: 500px;
+
   align-self: center;
 }
 
@@ -53,9 +55,21 @@ table {
   align-self: center;
 }
 
-.userform{
-    align-self: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+.userform {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+}
+
+.darkmode {
+  margin-left: 1000px;
+  font-family: "Courier New", Courier, monospace;
+  background-color: lightblue;
+  border: 2px solid black;
 }
