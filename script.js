@@ -1,4 +1,4 @@
-const darkmode = document.querySelector(".darkmode");
+const darkmode = document.querySelector("#darkmode");
 const body = document.querySelector("body");
 const tabledatath = document.getElementsByTagName("th");
 const tabledatatr = document.getElementsByTagName("tr");
@@ -26,7 +26,7 @@ darkmode.addEventListener("click", () => {
       div.style.borderColor = "white";
     }
     propic.src = "./giphy.gif";
-    darkmode.textContent = ("Light Mode")
+    darkmode.textContent = "Light Mode";
   } else if (isDark == true) {
     isDark = false;
     body.style.backgroundColor = "lightblue";
@@ -44,6 +44,6 @@ darkmode.addEventListener("click", () => {
       div.style.borderColor = "black";
     }
     propic.src = "./giphy1.gif";
-    darkmode.textContent = ("Dark Mode")
+    darkmode.textContent = "Dark Mode";
   }
 });
